@@ -6,7 +6,7 @@ This is a theme and configuration that tries to match the Windows XP look more c
 
 If you use another desktop environment, `xfdesktop` should work most effectively.
 
-[Screenshots](https://zumipap.deviantart.com/art/Windows-XFCE-725338933)
+![Windows XP theme](https://img00.deviantart.net/b9da/i/2018/013/3/f/windows_xfce_by_zumipap-dbzuj3p.jpg)
 
 * XP GTK theme based on : [WinXP-themes](https://github.com/B00merang-Project/WinXP-themes)
 
