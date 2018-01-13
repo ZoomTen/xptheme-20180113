@@ -1,0 +1,31 @@
+background no
+use_xft yes
+xftfont Trebuchet MS:normal:size=10
+xftalpha 1
+update_interval 1
+total_run_times 0
+own_window yes
+own_window_class Conky
+own_window_type desktop
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_shade_color black
+default_color white
+default_outline_color black
+alignment bottom_right
+ gap_x 4
+ gap_y 32
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale no
+
+TEXT
+${alignr}${font Trebuchet MS:bold:size=10}${exec lsb_release -d | awk '{$1 = ""; print $0}'} ${exec lsb_release -r | awk '{print $2}'}
+${alignr}${font Tahoma:normal:size=8}Build ${exec uname -r}
+${alignr}This copy of ${exec lsb_release -d | awk '{print $2}'} is not normie-friendly

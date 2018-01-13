@@ -1,0 +1,15 @@
+gtk-2.0:
+	BG[NORMAL] is removed to accomodate my Office 2007 theme
+	fixed some colors
+	changed padding in a few widgets (menu, menubar, tabs)
+	assigned MS Sans Serif to tabs
+	Windows XP panel buttons
+	
+gtk-3.20:
+	Changed padding on tabs
+	Fixed colors
+	
+xfwm4:
+	Added "Restore Window" buttons
+	Blanked out menu button
+	Changed themerc to be more accurate to XP

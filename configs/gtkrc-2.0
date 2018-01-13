@@ -1,0 +1,30 @@
+style "xfdesktop-icon-view" {
+	XfdesktopIconView::label-alpha = 0	# set this to 255 if you want labels to have backgrounds
+	XfdesktopIconView::selected-label-alpha = 255
+	XfdesktopIconView::ellipsize-icon-labels = 1
+	XfdesktopIconView::tooltip-size = 64
+	font_name="Tahoma"
+
+	XfdesktopIconView::shadow-x-offset = 0
+	XfdesktopIconView::shadow-y-offset = 1	# set this to 0 if you want labels to have backgrounds
+	XfdesktopIconView::shadow-color = "#000"
+	XfdesktopIconView::shadow-blur-radius = 4	# set this to 0 if you want labels to have backgrounds
+	XfdesktopIconView::selected-shadow-blur-radius = 0
+	XfdesktopIconView::selected-shadow-x-offset = 0
+	XfdesktopIconView::selected-shadow-y-offset = 0
+	XfdesktopIconView::selected-shadow-y-offset = 0
+	XfdesktopIconView::selected-shadow-color = "#303030"
+
+	XfdesktopIconView::cell-spacing = 6
+	XfdesktopIconView::cell-padding = 2
+	XfdesktopIconView::cell-text-width-proportion = 2.3
+	
+	fg[NORMAL] = "#fff"
+	fg[SELECTED] = "#fff"
+	fg[ACTIVE] = "#fff"
+	
+	base[NORMAL] = "#000"	# label background color
+	
+	XfdesktopIconView::label-radius = 0
+}
+widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
