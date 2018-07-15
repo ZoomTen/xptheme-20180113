@@ -19,7 +19,13 @@ If you use another desktop environment, `xfdesktop` should work most effectively
 
 ## Installing this theme
 
-Download the zip file by clicking `Clone or Download` -> `Download ZIP`. Extract it to a directory of your choosing. This extracted folder will be known as "repo".
+Open up a terminal, `cd` to a directory of your choosing, and run:
+
+`git clone --recursive https://github.com/ZoomTen/xptheme-20180113`
+
+This will download the files from this repo into a new directory. The resulting directory, which should be named similarly to this repo, will be referred to as simply "repo".
+
+
 
 Locations prefixed with `~/` indicate an item or folder in your *home directory*.
 
